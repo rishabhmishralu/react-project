@@ -1,0 +1,232 @@
+.linK{
+    text-decoration: none;
+}
+
+.main-1{
+    display: flex;
+    padding: 25px;
+    justify-content: space-around;
+   
+}
+.box-1{
+    /* border: 3px solid; */
+    border-radius: 25px;
+ 
+ 
+}
+    /* background: aqua; */
+
+.img1{
+    border-radius: 25px;
+    width: 300px;
+    height: 230px;
+    /* width: 30%; */
+}
+.heading-box-1{
+    text-align: center;
+    color: cadetblue;
+}
+
+.img1:hover{
+    transform: translate(10px,10px);
+    box-shadow: 9px rgb(131, 156, 180);
+
+}
+
+
+
+.page-heading{
+    text-align: center;
+}
+
+
+
+
+
+.bollywood{
+    display: flex;
+}
+
+
+.bolly-response{
+    display: flex;
+}
+.bolly{
+    width: 60%;
+    /* background-color: antiquewhite; */
+    padding: 10px;
+}
+.post{
+    width: 40%;
+    /* background-color: aqua; */
+    /* display: flex;
+    justify-content: center; */
+}
+.toppost{
+    display: flex;
+    justify-content: center;
+}
+.postimg{
+    width: 150px;
+    height: 150px;
+}
+.breif{
+    margin: 10px;
+}
+/* .hero{
+    border-radius: 25px;
+    width: 300px;
+    height: 230px;
+} */
+
+
+
+
+/* fitness */
+.fitness-2{
+    width: 80%;
+  
+    
+}
+.fitness-box-2{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 110px;
+ 
+}
+
+
+
+
+/* holly */
+.hollywood{
+    display: flex;
+    justify-content: center;
+}
+.hollyimg{
+    width: 260px;
+    height: 220px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+
+/* datavire */
+.view{
+   display: flex;
+   justify-content: center;
+   padding: 20px;
+    
+}
+.main-image{
+    width: 600px;
+    background-color: beige;
+    border: 2px solid black;
+    border-radius:19px ;
+    padding: 20px;
+
+}
+
+
+
+/* product */
+/* .product{
+    display: flex;flex-wrap: wrap;
+} */
+.cart-box{
+    /* width: 30%; */
+    border: 3px solid rgb(225, 141, 141);
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    width: 253px;
+    height: 390px;
+    border-radius: 20px;
+}
+.main-cart{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.productimg{
+    width: 200px;
+    height: 200px;
+}
+.heading-product{
+    text-align: center;
+    color: darkgoldenrod;
+}
+.product-button{
+    background-color: rgb(179, 216, 216);
+    border-radius: 30px;
+    width: 95px;
+    height: 31px;
+}
+
+
+
+
+
+
+
+
+ @media  screen and (min-width:340px) and (max-width: 768px) {
+
+
+.main-1{
+    display: block;
+}
+.img1{
+    width: 100%;
+}
+
+
+
+.bollywood{
+    width: 100%;
+    display: block;
+}
+
+
+.bolly-response{
+    display: block;
+}
+.bolly{
+    width: 100%;
+}
+
+
+
+  .post{
+    display: none;
+   
+  }
+  .hollywood{
+    display: block;
+    
+  }
+  .hollyimg{
+    width: 100%;
+  }
+
+
+  .fitness-box-2{
+    display: block;
+  }
+  .fitness-2{
+    width: 100%;
+
+  }
+  .fitness-box-2{
+    margin-left: 0px;
+  }
+.cart-box{
+   width: 100%;
+}
+.main-cart{
+    display: block;
+    padding-right: 35px;
+}
+
+ }
