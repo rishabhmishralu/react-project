@@ -77,4 +77,22 @@
         text-align: start;
         background-color: #04AA6D;
     }
+  
+     
+
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    
+}
+.footer-div-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-img{
+    width: 30px;
+   
+    
 }

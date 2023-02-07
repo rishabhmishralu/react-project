@@ -9,12 +9,8 @@ const Nav = () => {
 
  const[menu,setmenu]=useState(false)
  
-//   useState(()=>{
-//   setmenu(!menu)
-//  },[])
-// console.log(menu)
-// // setmenu(!menu)
-// 
+
+
 const change=(e)=>{
   e.preventDefault(
     setmenu(!menu)
